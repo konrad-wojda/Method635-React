@@ -1,0 +1,20 @@
+$input-width: 20rem;
+$icon-width: 2rem;
+
+.input {
+    display: block;
+    width: $input-width;
+
+    &__password {
+        display: block;
+        position: relative;
+        width: min-content;
+
+        &__icon {
+            position: absolute;
+            width: $icon-width;
+            left: calc($input-width - $icon-width);
+            top: 1.6rem;
+        }
+    }
+}

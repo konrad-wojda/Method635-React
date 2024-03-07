@@ -1,0 +1,22 @@
+.author-name {
+    margin-bottom: 0;
+}
+
+.outside-link {
+    &__element {
+        display: flex;
+        align-items: center;
+
+        &:not(:last-child) {
+            margin-bottom: 0.6rem;
+        }
+
+        &__link {
+            color: var(--link-color);
+        }
+
+        &__icon {
+            margin-right: 1rem;
+        }
+    }
+}

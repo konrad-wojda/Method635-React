@@ -1,0 +1,12 @@
+.navbar {
+    display: inline-flex;
+    align-items: center;
+
+    &__element {
+        margin-right: 1rem;
+
+        &__link {
+            color: var(--link-color);
+        }
+    }
+}
